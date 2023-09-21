@@ -1,0 +1,267 @@
+This is my first assignment at first project 
+i have copied the code over here.
+
+AnShIkA@AnShIkA MINGW64 ~
+$ cd /c
+
+AnShIkA@AnShIkA MINGW64 /c
+$ ls
+'!qhlogs.doc'    '$SysReset'/                      'Documents and Settings'@  'Program Files'/        'System Volume Information'/   bootTel.dat    hithub/
+'$AV_ASW'/       '$WINRE_BACKUP_PARTITION.MARKER'   Intel/                    'Program Files (x86)'/   Users/                        bootmgr        nilesh/
+'$GetCurrent'/   '$WinREAgent'/                     MSOCache/                  ProgramData/            Windows/                      found.000/     nilesh_project/
+'$Recycle.Bin'/   BOOTNXT                           PerfLogs/                  Recovery/               Windows10Upgrade/             hiberfil.sys   swapfile.sys
+
+AnShIkA@AnShIkA MINGW64 /c
+$ mkdir niles_project
+
+AnShIkA@AnShIkA MINGW64 /c
+$ cd niles_project
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project
+$ ls
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project
+$ git init
+Initialized empty Git repository in C:/niles_project/.git/
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ ls
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ ls -a
+./  ../  .git/
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ touch first_project.txt
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first_project.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ vi first_project.txt
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first_project.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.name" nilesh-aurade"
+error: invalid key: user.name nilesh-aurade
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.name"nilesh-aurade"
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.email"nileshaurade84@gmail.com"
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global --list
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git commit -m"first_project.txt has been added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'AnShIkA@AnShIkA.(none)')
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git add first_project.txt
+warning: in the working copy of 'first_project.txt', LF will be replaced by CRLF the next time Git touches it
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.name"nilesh-aurade"
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.email"nileshaurade84@gmail.com"
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global --list
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git commit -m"first_project.txt has been added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'AnShIkA@AnShIkA.(none)')
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.email "nileshaurade84@gmail.com"
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global user.name "nilesh-aurade"
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git config --global --list
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.email=nileshaurade84@gmail.com
+user.name=nilesh-aurade
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git commit -m"first_project.txt has been added"
+[master (root-commit) 64df31a] first_project.txt has been added
+ 1 file changed, 2 insertions(+)
+ create mode 100644 first_project.txt
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git log
+commit 64df31aab5a70e4346e3c63bc2641f3895bce456 (HEAD -> master)
+Author: nilesh-aurade <nileshaurade84@gmail.com>
+Date:   Mon Sep 18 16:38:19 2023 +0530
+
+    first_project.txt has been added
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git remote add origin https://github.com/nilesh-aurade/first_project.git
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 324 bytes | 108.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/nilesh-aurade/first_project/pull/new/master
+remote:
+To https://github.com/nilesh-aurade/first_project.git
+ * [new branch]      master -> master
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ mkdir screenshot
+mkdir: cannot create directory ‘screenshot’: File exists
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ cd /c
+
+AnShIkA@AnShIkA MINGW64 /c
+$ mkdir screenshot
+
+AnShIkA@AnShIkA MINGW64 /c
+$ git add C:\Users\AnShIkA\Desktop\SteepGraph\image.png
+fatal: not a git repository (or any of the parent directories): .git
+
+AnShIkA@AnShIkA MINGW64 /c
+$ git push origin master
+fatal: not a git repository (or any of the parent directories): .git
+
+AnShIkA@AnShIkA MINGW64 /c
+$  git status
+fatal: not a git repository (or any of the parent directories): .git
+
+AnShIkA@AnShIkA MINGW64 /c
+$ git remote add origin https://github.com/nilesh-aurade/Nsa.git
+fatal: not a git repository (or any of the parent directories): .git
+
+AnShIkA@AnShIkA MINGW64 /c
+$ git log
+fatal: not a git repository (or any of the parent directories): .git
+
+AnShIkA@AnShIkA MINGW64 /c
+$ cd niles
+bash: cd: niles: No such file or directory
+
+AnShIkA@AnShIkA MINGW64 /c
+$ ls
+'!qhlogs.doc'    '$SysReset'/                      'Documents and Settings'@  'Program Files'/        'System Volume Information'/   bootTel.dat    hithub/           screenshot/
+'$AV_ASW'/       '$WINRE_BACKUP_PARTITION.MARKER'   Intel/                    'Program Files (x86)'/   Users/                        bootmgr        niles_project/    swapfile.sys
+'$GetCurrent'/   '$WinREAgent'/                     MSOCache/                  ProgramData/            Windows/                      found.000/     nilesh/
+'$Recycle.Bin'/   BOOTNXT                           PerfLogs/                  Recovery/               Windows10Upgrade/             hiberfil.sys   nilesh_project/
+
+AnShIkA@AnShIkA MINGW64 /c
+$ cd niles_project/
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ ls
+first_project.txt  image.png  screenshot/
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git push origin master
+Everything up-to-date
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git add screenshot/
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git push origin master
+Everything up-to-date
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git add .
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git commit -m" scren uploaded"
+[master f5ae2fb]  scren uploaded
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 image.png
+ create mode 100644 screenshot/image.png
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 188.23 KiB | 7.24 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nilesh-aurade/first_project.git
+   64df31a..f5ae2fb  master -> master
+
+AnShIkA@AnShIkA MINGW64 /c/niles_project (master)
+$
+
